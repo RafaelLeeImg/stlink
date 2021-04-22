@@ -13,6 +13,8 @@ extern "C" {
 enum stlink_stm32_chipids {
     STLINK_CHIPID_UNKNOWN                = 0x000,
 
+    STLINK_CHIPID_GD32_GD32F103CB        = 0x5fa0004,
+
     STLINK_CHIPID_STM32_F1_MEDIUM        = 0x410,
     STLINK_CHIPID_STM32_F2               = 0x411,
     STLINK_CHIPID_STM32_F1_LOW           = 0x412,

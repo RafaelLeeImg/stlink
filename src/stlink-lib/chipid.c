@@ -697,6 +697,16 @@ static const struct stlink_chipid_params devices[] = {
         .option_size = 44,
         .flags = CHIP_F_HAS_SWO_TRACING,
     },
+    {
+        .chip_id = STLINK_CHIPID_GD32_GD32F103CB,
+        .description = "GD32F103CB",
+        .flash_type = STLINK_FLASH_TYPE_F0,
+        .flash_size_reg = 0x1ffff7e0,
+        .flash_pagesize = 0x400,
+        .sram_size = 0x5000,
+        .bootrom_base = 0x1ffff000,
+        .bootrom_size = 0x800
+    },
 
     {
         // unknown
